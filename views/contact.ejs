@@ -1,0 +1,31 @@
+<%- include('partials/header') %>
+
+<section class="page-head">
+  <h1>Contact Us</h1>
+  <p class="lead">Have a project in mind? Send us a message and we'll reply within one working day.</p>
+</section>
+
+<section class="grid contact">
+  <form class="card form" action="#" method="get">
+    <label>Name
+      <input type="text" name="name" placeholder="Your name" required />
+    </label>
+    <label>Email
+      <input type="email" name="email" placeholder="you@example.com" required />
+    </label>
+    <label>Message
+      <textarea name="message" rows="5" placeholder="Tell us about your project" required></textarea>
+    </label>
+    <button type="submit" class="btn">Send message</button>
+  </form>
+
+  <div class="card">
+    <h3>Visit or call</h3>
+    <p>123 Main Street<br />Suite 4</p>
+    <p>Phone: +000 000 0000<br />Email: hello@atlasstudio.example</p>
+    <h3>Opening hours</h3>
+    <p>Monday – Friday<br />9:00 – 17:00</p>
+  </div>
+</section>
+
+<%- include('partials/footer') %>
